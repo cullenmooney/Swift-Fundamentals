@@ -41,7 +41,7 @@ func transmogrifier(numOne : Int, numTwo : Int, numThree : Int) {
 transmogrifier(numOne: 2, numTwo: 3, numThree: 7)
 
 func yearToCentury(year : Int) -> Int {
-    let century = Double((1905 / 100))
+    let century : Double = ((1905 / 100)).rounded(.up)
     return Int(century)
 }
 
