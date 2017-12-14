@@ -28,7 +28,7 @@ func getMilk(howManyMilkCartons : Int, howMuchMoneyRobotWasGiven : Int) -> Int {
     return change
 }
 // Calling the getMilk() function
-var amountOfChange = getMilk(howManyMilkCartons: 1, howMuchMoneyRobotWasGiven: 10)
+var amountOfChange = getMilk(howManyMilkCartons: 1, howMuchMoneyRobotWasGiven: 150)
 
 print("Hello master here's your $\(amountOfChange) change")
 
@@ -40,5 +40,10 @@ func transmogrifier(numOne : Int, numTwo : Int, numThree : Int) {
 
 transmogrifier(numOne: 2, numTwo: 3, numThree: 7)
 
+func yearToCentury(year : Int) -> Int {
+    let century = Double((1905 / 100))
+    return Int(century)
+}
 
+yearToCentury(year : 1905)
 

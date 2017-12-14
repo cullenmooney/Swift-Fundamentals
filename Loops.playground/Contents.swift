@@ -23,3 +23,12 @@ print(loopSum)
 for number in 1...11 where number % 2 == 0 {
     print(number)
 }
+
+let reverseNumber = String("\number".characters.reversed())
+for number in 900000...999999 where number == reverseNumber {
+    
+    let reverseNumber = String("\number".characters.reversed())
+    return number
+}
+
+
